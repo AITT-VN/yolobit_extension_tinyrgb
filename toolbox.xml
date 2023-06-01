@@ -1,0 +1,12 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="TINY RGB" colour="#44cbc6" icon="th-large">
+    <block type="create_tinyrgbled"/> 
+    <block type="led_tiny_set_all">
+      <value name="COLOR">
+        <shadow type="colour_picker">
+          <field name="COLOUR">#ff0000</field>
+        </shadow>
+      </value>
+    </block>    
+  </category>
+</xml>
